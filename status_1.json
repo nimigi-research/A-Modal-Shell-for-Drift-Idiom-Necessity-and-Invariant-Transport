@@ -1,0 +1,37 @@
+{
+  "paper_title": "A Modal Shell for Drift, Idiom Necessity, and Invariant Transport\\\n\\large vNext — Display Fix, STIX Two Math, Theming, and Tool Integration",
+  "project_name": "Modal Shell (vNext)",
+  "lines_original_body": 383,
+  "lines_output_body": 403,
+  "added_lines": [
+    "\\allowdisplaybreaks % [added]",
+    "\\begin{align*} % [added]",
+    "% converted to align* % [added]",
+    "\\varphi \\Coloneqq {}& \\top \\mid \\bot \\mid p \\mid \\neg p \\mid \\va...rphi \\land \\varphi \\mid \\varphi \\lor \\varphi \\mid X \\\\ % [added]",
+    "&\\mid [G]\,\\varphi \\mid \\langle G\\rangle\,\\varphi \\qquad (G \\in \\mathcal{G}) \\\\ % [added]",
+    "&\\mid \\Box_{\\MT}\\varphi \\mid \\Diamond_{\\MT}\\varphi \\mid \\Box_{\\CT}\\varphi \\mid \\Diamond_{\\CT}\\varphi \\\\ % [added]",
+    "&\\mid \\Box^{G}_{\\as}\\varphi \\qquad (G \\in \\mathcal{G}) \\\\ % [added]",
+    "&\\mid \\mu X.\\,\\varphi \\mid \\nu X.\\,\\varphi % [added]",
+    "% end aligned (handled by align*) % [added]",
+    "\\end{align*} % [added]",
+    "\\den{\\Box^{G}_{\\as}\\varphi}_{\\env} \\;=\\; \\{\\, w \\in W \\mid \\mu^{G}_w(\\den{\\varphi}_{\\env})=1 \\,\\}. % [added]",
+    "\\mu^{\\prime G}_{f(w)}(A')=\\mu^G_w\\!\\bigl(f^{-1}(A')\\bigr). % [added]",
+    "\\mathsf{Pre}^{G}_{\\as}(S) := \\{\\,w \\mid \\mu^G_w(S)=1\\,\\}. % [added]",
+    "\\begin{align*} % [added]",
+    "\\end{align*} % [added]",
+    "\\begin{align*} % [added]",
+    "\\end{align*} % [added]",
+    "\\begin{align*} % [added]",
+    "\\end{align*} % [added]",
+    "\\bibliographystyle{plainnat} % [added]"
+  ],
+  "new_citation_keys_added": ["Tarski1955", "Park1969"],
+  "bib_system": "natbib + BibTeX",
+  "engine": "pdflatex",
+  "compilation_steps": [
+    "pdflatex main",
+    "bibtex main",
+    "pdflatex main",
+    "pdflatex main"
+  ]
+}
